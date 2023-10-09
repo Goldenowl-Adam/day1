@@ -12,7 +12,7 @@ function App() {
                         viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        className="card__icon"
+                        className="card__header__icon"
                     >
                         <path
                             stroke-linecap="round"
@@ -27,7 +27,7 @@ function App() {
                         viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        className="card__icon"
+                        className="card__header__icon"
                     >
                         <path
                             stroke-linecap="round"
@@ -36,6 +36,7 @@ function App() {
                         />
                     </svg>
                 </div>
+
                 <div className="card__content">
                     <img
                         src="layout/images/Nike Zoom KD 12.png"
@@ -44,23 +45,23 @@ function App() {
 
                     <h1>Nike Zoom KD 12</h1>
 
-                    <div className="card__price">$98</div>
+                    <div className="card__content__price">$98</div>
                 </div>
                 <div className="card__feature">
-                    <div className="card__option-size">
+                    <div className="card__feature__option-size">
                         <div>Size:</div>
                         <div className="card__box">6</div>
                         <div className="card__box">7</div>
                         <div className="card__box">8</div>
                         <div className="card__box">9</div>
                     </div>
-                    <div className="card__option-color">
+                    <div className="card__feature__option-color">
                         <div>Color:</div>
                         <div className="card__circle color_lime"></div>
                         <div className="card__circle color_red"></div>
                         <div className="card__circle color_gray"></div>
                     </div>
-                    <div className="card__button">
+                    <div className="card__feature__button">
                         <div className="">Buy now</div>
                         <div className="">Add cart</div>
                     </div>
